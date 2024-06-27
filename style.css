@@ -1,0 +1,77 @@
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3dcb2;
+            margin: 0;
+            padding: 20px;
+            height: 100vh; /* Para ocupar toda a altura da viewport */
+        }
+
+
+        .sidebar {
+            background-color: #f0f0f0;
+            padding: 20px;
+            width: 200px; /* Largura da barra lateral */
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .logo-container {
+            text-align: center; /* Centraliza o conteúdo dentro do container */
+        }
+
+        .logo-container img {
+            max-width: 25%; /* Garante que o logo não ultrapasse o tamanho do seu container */
+            height: auto;
+
+        }
+        h1 {
+            margin: 0;         
+        }
+        .menu-section {
+            margin-bottom: 20px;
+        }
+        .menu-item {
+            padding: 10px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+        .menu-item h2 {
+            margin: 0 0 10px;
+        }
+        .menu-item p {
+            margin: 0;
+        }
+        .nav-link {
+            display: inline-block;
+            margin-right: 10px;
+            text-decoration: none;
+            color: #000000;
+            padding: 5px 10px;
+            border: 1px solid #000000;
+            border-radius: 5px;
+        }
+        .nav-link:hover {
+            background-color: #000000;
+            color: rgb(255, 255, 255);
+        }
+        /* Estilos para o botão flutuante "Regressar ao Topo" */
+        .back-to-top {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #000000; /* Cor de fundo azul */
+            color: #fff; /* Cor do texto branco */
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            text-align: center;
+            font-size: 14px;
+            z-index: 1000; /* Para garantir que o botão fique acima de outros elementos */
+        }
+
+        .back-to-top:hover {
+            background-color: #000000; /* Cor de fundo azul mais escura no hover */
+        }
